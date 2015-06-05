@@ -52,3 +52,4 @@ C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\bin\Micros
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\movie.csprojResolveAssemblyReference.cache

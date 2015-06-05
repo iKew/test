@@ -18,6 +18,7 @@ namespace WebApplication1
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "movieModels", action = "Index", id = UrlParameter.Optional }
             );
+
         }
     }
 }

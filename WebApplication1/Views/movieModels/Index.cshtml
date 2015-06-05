@@ -6,9 +6,17 @@
 
 <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
+<p style="float:left">
+    @Html.ActionLink("Create New", "Create")    
 </p>
+@using (Html.BeginForm())
+{
+    <p style="float:right;">
+        Title: @Html.TextBox("id")
+        Genre: @Html.DropDownList("movieGenre", "All")
+        <input style="float:right; margin-left:5px;" type="submit" value="Search" />
+    </p>
+}
 <table class="table">
     <tr>
         <th>
