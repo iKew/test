@@ -55,3 +55,4 @@ C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\movie.csprojResolveAssemblyReference.cache
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial.resources
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\movie.csproj.GenerateResource.Cache
+C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial1.resources

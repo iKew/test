@@ -15,6 +15,7 @@ namespace WebApplication1.Models
         public DateTime reciverDate { get; set; }
         public string Genre { get; set; }
         public decimal price { get; set; }
+        public string Rating { get; set; }
     }
 
     public class MovieDBContext : DbContext

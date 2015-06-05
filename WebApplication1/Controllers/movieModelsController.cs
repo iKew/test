@@ -70,7 +70,7 @@ namespace WebApplication1.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name,reciverDate,Genre,price")] movieModel movieModel)
+        public ActionResult Create([Bind(Include = "ID,Name,reciverDate,Genre,price,Rating")] movieModel movieModel)
         {
             if (ModelState.IsValid)
             {
@@ -102,7 +102,7 @@ namespace WebApplication1.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name,reciverDate,Genre,price")] movieModel movieModel)
+        public ActionResult Edit([Bind(Include = "ID,Name,reciverDate,Genre,price,Rating")] movieModel movieModel)
         {
             if (ModelState.IsValid)
             {
