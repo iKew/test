@@ -52,7 +52,7 @@ C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\bin\Micros
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
-C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\movie.csprojResolveAssemblyReference.cache
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial.resources
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\movie.csproj.GenerateResource.Cache
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.Initial1.resources
+C:\Users\ikew-pc\Desktop\project-test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Migrations.DataAnnotations.resources
