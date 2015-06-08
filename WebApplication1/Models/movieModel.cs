@@ -13,7 +13,7 @@ namespace WebApplication1.Models
 
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime reciverDate { get; set; }
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
