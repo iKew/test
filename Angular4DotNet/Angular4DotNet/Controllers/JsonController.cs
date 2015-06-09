@@ -3,11 +3,14 @@ using Newtonsoft.Json.Serialization;
 using System.Web.Mvc;
 using System.Net;
 using System;
+using Angular4DotNet.Models.Registration;
 
 namespace Angular4DotNet.Controllers
 {
     public class JsonController : Controller
     {
+        protected readonly RegistrationVmBuilder _registrationVmBuilder = new RegistrationVmBuilder();
+
         protected new ActionResult Json(object data, JsonRequestBehavior behavior = JsonRequestBehavior.DenyGet)
         {
             var jsonSerializerSettings = new JsonSerializerSettings
