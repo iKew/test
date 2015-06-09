@@ -111,6 +111,7 @@
   <ItemGroup>
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\InstructorsController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -157,6 +158,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Instructors\Index.cshtml" />
+    <Content Include="Views\Registration\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

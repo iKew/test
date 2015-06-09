@@ -51,6 +51,5 @@ C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4Dot
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4DotNet\bin\System.Web.WebPages.xml
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4DotNet\bin\System.Web.WebPages.Deployment.xml
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4DotNet\bin\System.Web.WebPages.Razor.xml
-C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4DotNet\obj\Debug\Angular4DotNet.csprojResolveAssemblyReference.cache
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4DotNet\obj\Debug\Angular4DotNet.dll
 C:\Users\ikew-pc\Desktop\project-test\WebApplication1\Angular4DotNet\Angular4DotNet\obj\Debug\Angular4DotNet.pdb
