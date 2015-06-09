@@ -1,13 +1,28 @@
-﻿@model string
+﻿@model RegistrationVm
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";   
+}
+
+@section JavascriptInHead
+{
+    <script src="~/Scripts/Courses/courses-controller.js"></script>
+    <script type="text/javascript">
+        registrationModule.factory('bootstrappedData', function () {
+            return {
+                courses: @Html.Raw(Model.Courses)
+                instructor: @Html.Raw(Model.Instructors)
+                };
+        });
+        //console.log(courses);
+    </script>
 }
 <!--[
      {number: 'CREA101', name: 'Care of Magical Creatures', instructor: 'Rubeus Hagrid'},
      {number: 'DARK502', name: 'Defence Against the Dark Arts', instructor: 'Severus Snape'},
      {number: 'TRAN201', name: 'Transfiguration', instructor: 'Minerva McGonagall'}
      ]-->
-<div class="container" ng-init="courses = @Html.Raw(Model)">
+<div class="container" ng-controller="CoursesController">
+    <!--ng-init="courses = @Html.Raw(Model)"-->
     <div class="row">
         <div class="span10">
             <table class="table table-condensed table-hover">
