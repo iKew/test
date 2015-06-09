@@ -110,9 +110,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\InstructorsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Courses\CourseVm.cs" />
+    <Compile Include="Models\Instructors\InstructorVm.cs" />
+    <Compile Include="Models\Registration\RegistrationVm.cs" />
+    <Compile Include="Models\Registration\RegistrationVmBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +142,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Courses\courses-controller.js" />
+    <Content Include="Scripts\Instructors\instructors-controller.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\npm.js" />
@@ -150,10 +156,10 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <Content Include="Views\Instructors\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
