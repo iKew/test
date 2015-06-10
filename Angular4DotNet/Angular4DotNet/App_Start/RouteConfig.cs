@@ -18,17 +18,17 @@ namespace Angular4DotNet
             //    url: "Registration/{*catchall}",
             //    defaults: new { controller = "Registration", action = "Index" }
             //);
-            routes.MapRoute(
-                name: "Registration Courses",
-                url: "Registration/Courses",
-                defaults: new { controller = "Registration", action = "Index" }
-            );
+            //routes.MapRoute(
+            //    name: "Registration Courses",
+            //    url: "Registration/Courses",
+            //    defaults: new { controller = "Registration", action = "Index" }
+            //);
 
-            routes.MapRoute(
-                name: "Registration Instructors",
-                url: "Registration/Instructors",
-                defaults: new { controller = "Registration", action = "Index" }
-            );
+            //routes.MapRoute(
+            //    name: "Registration Instructors",
+            //    url: "Registration/Instructors",
+            //    defaults: new { controller = "Registration", action = "Index" }
+            //);
 
             routes.MapRoute(
                 name: "Default",
