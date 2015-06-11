@@ -1,4 +1,4 @@
-﻿angular.module('app').controller('mainCtrl', function ($scope, chat, toaster) {
+﻿angular.module('app').controller('mainCtrl', function ($scope, chat) {
     $scope.messages = [];
 
     $scope.inRoom = false;
@@ -34,9 +34,5 @@
 
     function displayMessage(message) {
         $scope.messages.push({ message: message });
-    }
-
-    chat.client.newNotification = function onNewNotification(notification) {
-        toaster.success(notification);
     }
 });

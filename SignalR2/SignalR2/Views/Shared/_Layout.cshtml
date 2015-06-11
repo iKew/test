@@ -37,10 +37,10 @@
     </div>
 
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/signalr")
-    <script src='<%: ResolveClientUrl("~/signalr/hubs") %>'></script>
     @Scripts.Render("~/bundles/angular")
     @Scripts.Render("~/bundles/toaster")
+    @Scripts.Render("~/bundles/signalr")
+    <script src="~/signalr/hubs"></script>
     @Scripts.Render("~/bundles/code")
     @RenderSection("scripts", required: false)
     </body>
