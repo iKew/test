@@ -1,8 +1,24 @@
-<html>
-	<head>
-		<script type="text/javascript" src="angular.js"></script>
-	</head>
-	<body ng-app>
-		Hello {{1+1}} the World!
-	</body>
+<html ng-app> <!-- อย่าลืม ng-app -->
+<head>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <script>
+        function HelloController($scope){
+            $scope.x = 0;
+         	$scope.y = 100;
+         
+         	$scope.$watch("x+y", function (result) {
+            	console.log('new result',result);
+            	$scope.r = result;
+         	});
+        }
+    </script>
+</head>
+<body>
+    <div ng-controller="HelloController">
+        <input  type="number" ng-model="x">
+        <p>{{r}}, คุณผู้อ่าน</p>
+    </div>
+</body>
+    
 </html>
